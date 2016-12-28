@@ -1,0 +1,26 @@
+<!-- Corresponds to hero.json -->
+<section class="section section--hero">
+  <div class="section__image" role="image" aria-label="alt text" style="background-image: url({{ hero.src }});">
+    <div class="section__title">
+      <h1>{{ hero.title }}</h1>
+    </div>
+  </div>
+  {% if hero.intro is defined %}
+    <div class="layout-constrain--narrow">
+      <h2 class="section__subtitle">
+        {{ hero.intro|raw }}
+      </h2>
+    </div>
+  {% endif %}
+</section>
+
+
+<!-- Corresponds to
+ https://github.com/forumone/FCPS/blob/master/web/themes/gesso/pattern-lab/source/_patterns/01-components/sections/section-hero.json
+{
+  "hero": {
+    "src": "http://fpoimg.com/1600x600?text=Hero",
+    "title": "Pithy Title",
+    "intro": "Engaging heading text that tells audiences about the information they will find on this page."
+  }
+} -->

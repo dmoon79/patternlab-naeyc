@@ -1,15 +1,14 @@
 
-.section__banner--photo-circle {
+.section__banner--circlebg {
   background-color: get-color(blue, 4);
-  max-height: 500px;
   overflow: hidden;
   @include breakpoint(838px, $no-query: true) {
-    max-height: 300px;
   }
   .section__text {
     color: get-color(white, 0);
     line-height: 1.25;
     font-size: rem(30px);
+    margin: 0;
     @include breakpoint(838px, $no-query: true) {
       font-size: rem(36px);
     }
@@ -18,9 +17,9 @@
   .photo-circle {
     float: right;
     margin: 0;
-    bottom: -10%;
+    bottom: -30%;
   }
-  .layout-constrain {
+  .section__wrapper {
     display: flex;
     flex-flow: row wrap;
   }
@@ -28,9 +27,9 @@
     flex: 1 0 300px;
     &:first-child {
       align-self: center;
-      padding-bottom: 0;
+      padding-top: 2em;
       @include breakpoint(838px, $no-query: true) {
-        padding-bottom: 10%;
+        padding-top: 0;
       }
     }
   }
