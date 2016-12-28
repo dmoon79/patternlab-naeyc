@@ -3,19 +3,26 @@
   background-color: get-color(blue, 4);
   max-height: 500px;
   overflow: hidden;
-  .photo-circle {
-    float: right;
-  }
   @include breakpoint(838px, $no-query: true) {
     max-height: 300px;
+  }
+  .section__text {
+    color: get-color(white, 0);
+    line-height: 1.25;
+    font-size: rem(30px);
+    @include breakpoint(838px, $no-query: true) {
+      font-size: rem(36px);
+    }
+
+  }
+  .photo-circle {
+    float: right;
+    margin: 0;
+    bottom: -10%;
   }
   .layout-constrain {
     display: flex;
     flex-flow: row wrap;
-  }
-  h2 {
-    color: get-color(white, 0);
-    line-height: 1.25;
   }
   .section__col {
     flex: 1 0 300px;
@@ -23,7 +30,7 @@
       align-self: center;
       padding-bottom: 0;
       @include breakpoint(838px, $no-query: true) {
-        padding-bottom: 15%;
+        padding-bottom: 10%;
       }
     }
   }
