@@ -1,14 +1,24 @@
 .section--stats {
+  background-color: get-color(blue, 1);
+  padding: 2rem;
 
   .section__wrapper {
   }
 
   .section__item {
+    color: #FFF;
+    padding: rem(10px);
+    text-align: center;
+    min-width: 200px;
   }
 
   .section__stat {
+    font-size: 3.5rem;
+    font-weight: 700;
   }
 
   .section__description {
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }
