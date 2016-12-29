@@ -12,3 +12,12 @@
     width: em($max-page-width);
   }
 }
+
+.layout-constrain--half {
+  @extend .layout-constrain;
+  max-width: em($max-page-width/2);
+
+  @if breakpoint-get('no queries') == true {
+    width: em($max-page-width/2);
+  }
+}

@@ -1,0 +1,31 @@
+.section--fifty-fifty {
+
+  .section__wrapper {
+  }
+
+  .section__column--pic {
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 300px;
+    @include breakpoint(960px, $no-query: true) {
+      min-height: 500px;
+    }
+  }
+
+  .section__column {
+
+  }
+
+  .section__text-wrapper {
+  }
+
+  .section__headline {
+  }
+
+  .section__blurb {
+  }
+
+  .section__subheader {
+  }
+
+}
