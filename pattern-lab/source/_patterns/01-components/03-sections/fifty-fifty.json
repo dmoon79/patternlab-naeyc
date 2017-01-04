@@ -1,8 +1,9 @@
 {
   "fiftyFifty": {
     "src": "http://fpoimg.com/1200x1200?text=Fifty-Fifty",
-    "headline": "Lorem ipsum dolor sit amet, consectetur.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sint cumque, explicabo esse recusandae perferendis iure doloribus ipsa, sequi quibusdam.",
-    "subheader": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor."
+    "image": "http://www.freestockphotos.name/wallpaper-original/wallpapers/royalty-free-landscape-right-3768.jpg",
+    "headline": "High Quality Education",
+    "description": "NAEYC is a professional membership organization that works to promote high-quality early learning for all young children, birth through age 8.",
+    "subheader": "We advance a diverse, dynamic early childhood education"
   }
 }

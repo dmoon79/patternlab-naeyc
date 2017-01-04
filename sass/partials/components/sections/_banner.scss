@@ -1,10 +1,17 @@
 .section__banner {
+  background-color: transparent;
+  margin: em(20px);
   .section__wrapper {
   }
 
   .section__title {
+    margin: 0;
+    line-height: 1.2;
   }
 
-  .section__text {
+  .section__description {
+    font-size: rem(22px);
+    font-style: italic;
+    padding: 1rem 0;
   }
 }

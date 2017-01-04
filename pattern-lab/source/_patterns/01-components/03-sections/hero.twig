@@ -1,27 +1,15 @@
 <!-- Corresponds to hero.json -->
-<section class="section section--hero" style="background-image: url({{ hero.src }});">
-  <div class="layout-constrain">
-    <div class="section__image" role="image" aria-label="alt text">
-      <div class="section__title">
-        <h1>{{ hero.title }}</h1>
-      </div>
+<section class="section section--hero" style="background-image: url({{ hero.image }});">
+    <div class="layout-constrain">
+        <div class="section__wrapper">
+            <h1 class="section__title">
+                {{ hero.title }}
+            </h1>
+            {% if hero.intro is defined %}
+                <h2 class="section__subtitle">
+                  {{ hero.intro|raw }}
+                </h2>
+            {% endif %}
+        </div>
     </div>
-    {% if hero.intro is defined %}
-      <div class="layout-constrain--narrow">
-        <h2 class="section__subtitle">
-          {{ hero.intro|raw }}
-        </h2>
-      </div>
-    {% endif %}
-  </div>
 </section>
-
-<!-- Corresponds to
- https://github.com/forumone/FCPS/blob/master/web/themes/gesso/pattern-lab/source/_patterns/01-components/sections/section-hero.json
-{
-  "hero": {
-    "src": "http://fpoimg.com/1600x600?text=Hero",
-    "title": "Pithy Title",
-    "intro": "Engaging heading text that tells audiences about the information they will find on this page."
-  }
-} -->

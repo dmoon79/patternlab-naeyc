@@ -17,15 +17,24 @@
   }
 
   .section__text-wrapper {
+
   }
 
   .section__headline {
+    color: get-color( orange, 0);
+    font-size: rem(36px);
+    margin-bottom: rem(38px);
   }
 
   .section__blurb {
+    font-size: rem(22px);
+    line-height: rem(30px);
   }
 
   .section__subheader {
+    color: get-color( blue, 2 );
+    font-size: rem(28px);
+    line-height: rem(36px);
   }
 
 }

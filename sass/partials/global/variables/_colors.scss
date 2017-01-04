@@ -18,8 +18,9 @@ $colors: (
   ),
   grey: (
     0: #ebebeb,
-    1: #666666,
-    2: #414042,
+    1: #cccccc,
+    2: #666666,
+    3: #414042,
   ),
   white: (
     0: #FFF,
@@ -30,15 +31,17 @@ $colors: (
   @return map-get(map-get($colors, $color), $value);
 }
 
-$primary-text-color: get-color(grey, 2);
-$secondary-text-color:  get-color(grey, 1);
+$orange: get-color(orange, 0);
+
+$primary-text-color: get-color(grey, 3);
+$secondary-text-color:  get-color(grey, 2);
 $heading-text-color: #333;
 $body-color: get-color(white, 0);
 $link-color: get-color(blue, 1);
 $link-hover-color: get-color(blue, 0);
-$selection-background: blue;
-$selection-foreground: #fff;
-$border-color: #ccc;
+$selection-background: get-color(blue, 0);;
+$selection-foreground: get-color(white, 0);
+$border-color: get-color(grey, 1);
 $gradient-light: rgba(255, 255, 255, 0.2);
 $gradient-dark: rgba(0, 0, 0, 0.2);
 

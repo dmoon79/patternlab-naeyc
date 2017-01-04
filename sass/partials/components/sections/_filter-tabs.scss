@@ -1,0 +1,30 @@
+.section__filter-tabs {
+  .md-tab {
+    span {
+      padding: 10px;
+      &:before {
+        content: "** ";
+        display: block;
+        float: left;
+      }
+    }
+    &.md-active {
+      border-bottom: 10px yellow dotted;
+    }
+  }
+  md-tabs-content-wrapper {
+    border-top: 3px solid #CCC;
+  }
+  md-ink-bar {
+    color: $orange !important;
+    background-color: $orange !important;
+    height: 8px;
+  }
+
+  md-pagination-wrapper {
+    width: 100% !important;
+  }
+  // md-tab-content {
+  //   padding: 1rem;
+  // }
+}
