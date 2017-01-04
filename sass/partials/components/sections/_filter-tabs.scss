@@ -1,6 +1,7 @@
 .section__filter-tabs {
   .section__inner {
     background-color: #FFF;
+    box-shadow: 8px 17px 14px -10px #000;
     padding: rem(20px);
   }
   .md-tab {
@@ -28,7 +29,5 @@
   md-pagination-wrapper {
     width: 100% !important;
   }
-  // md-tab-content {
-  //   padding: 1rem;
-  // }
+
 }
