@@ -32,13 +32,13 @@
       "width": "48"
     },
     "thumbnail": {
-      "src": "http://fpoimg.com/140x105?text=Thumbnail 4:3",
+      "src": "http://fpoimg.com/140x105?text=Thumbnail%204:3",
       "alt": "Thumbnail 4:3",
       "height": "105",
       "width": "140"
     },
     "portrait": {
-      "src": "http://fpoimg.com/300x400?text=Portrait 3:4",
+      "src": "http://fpoimg.com/300x400?text=Portrait%203:4",
       "alt": "Portrait 3:4",
       "height": "400",
       "width": "300"
@@ -50,10 +50,16 @@
       "width": "266"
     },
     "landscape": {
-      "src": "http://fpoimg.com/800x450?text=Landscape 16:9",
+      "src": "http://fpoimg.com/800x450?text=Landscape%2016:9",
       "alt": "Landscape 16:9",
       "height": "450",
       "width": "800"
+    },
+    "homepageHeader": {
+      "src": "../../images/hero.png",
+      "alt": "Hero Image 2:1",
+      "height": "908",
+      "width": "1665"
     }
   },
 
